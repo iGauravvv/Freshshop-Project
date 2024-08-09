@@ -1,0 +1,218 @@
+a:link
+{
+    color: black;
+    text-decoration: none;
+}
+.dropdown-menu a
+{
+    color:lightgray;
+}
+.dropdown-menu
+{
+    display: none;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.dropdown-menu .dropdown-item
+{
+    padding:10px;    
+}
+input[type=search]::placeholder
+{
+    color: white;
+}
+.d-flex .nav-link:hover
+{
+    color: #b0b435;
+}
+.d-flex .nav-link 
+{
+    font-weight: 700;
+}
+.carousel .carousel-footer:hover
+{
+    background-color: black;
+}
+
+.carousel .carousel-indicators button
+{
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+.carousel-indicators .active
+{
+    background-color: #B0B435 !important;
+    border: 3px solid #B0B435 !important;
+}
+.carousel  .carousel-control-prev
+{
+ background-color: #B0B435;
+ height: 50px;
+ width: 50px;
+ top: 50%;
+}
+.carousel  .carousel-control-next
+{
+ background-color: #B0B435;
+ height: 50px;
+ width: 50px;
+ top: 50%;
+}
+.card .card-footer
+{
+    background-color: #B0B435;
+    color: white;
+    text-align: center;
+}
+.card .card-footer:hover
+{
+    background-color: black;
+}
+.cimg
+{
+    overflow: hidden;
+}
+.cimg:hover img
+{
+    transform: translate(-5px,-3px);
+    opacity: 0.7;
+    transition: 1s;
+}
+.oimg img:hover
+{
+    transform: translateY(5px);
+    transition: 1s;    
+}
+.nav-pills .nav-item .nav-link
+{
+    background-color: #B0B435;
+    color: white;
+}
+.nav-pills .nav-item .active
+{
+    background-color: black !important;
+}
+.price
+{
+    background-color: #B0B435;
+    color: white;
+    text-align: left;
+    padding: 3px;
+    font-size: 18px;
+    width: 30%;
+    font-weight: 700;
+}
+.btn1
+{
+    background-color: #B0B435;
+    color: white;
+    border: 2px solid #B0B435;
+    height: 20%;
+    width: 50%;
+}
+.hide
+{
+    display: none;
+}
+.disp:hover .hide
+{
+    display: block;
+}
+.hide .btn1:hover
+{
+    background-color: black;
+    border: 2px solid black;
+}
+.hide li:hover
+{
+    background-color: black;
+}
+.tooltip
+{
+    margin-left: 7px !important;
+}
+.tooltip .tooltip-inner
+{
+    background-color: #b0b435 !important;
+}
+.tooltip .tooltip-arrow::before
+{
+    border-right-color: #B0B435 !important;
+}
+.d div:hover
+{
+    background-color: #B0B435 !important;
+}
+.pa:hover
+{
+    background-color: #B0B435;
+}
+.na:hover
+{
+    background-color: #B0B435;
+}
+.imgslide img
+{
+    height: 75%;
+    width: 100%;
+}
+.fborder
+{
+    border-bottom: 2px solid #B0B435;
+}
+.sb:hover
+{
+    background-color: black !important;
+}
+.l:hover
+{
+    border-color: #B0B435 !important;
+}
+.l:hover a
+{
+    color: #B0B435
+}
+.info a {
+    color: white;
+}
+.info li:hover {
+    color: #B0B435;
+}
+.info li:hover a {
+    color: #B0B435;
+    transform: translatex(10px);
+}
+.contact a:hover {
+    color: #B0B435 !important;
+}
+.page {
+    background-image: url('images/all-bg-title.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cont
+{
+    background-image: url('images/contact-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.we .card:hover {
+    background-color: #B0B435;
+    color: white;
+    transform: translatey(5px);
+}
+.thd {
+    background-color: #B0B435 !important;
+    color: white !important;
+}
+.btn3:hover {
+    background-color: #B0B435 !important;
+    /* color: white; */
+}
